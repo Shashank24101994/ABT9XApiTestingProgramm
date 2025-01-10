@@ -4,24 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca6f4a2-630a-4337-90a4-e0db61df07d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/GET/APITesting006_GET_BDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/GET/GET/APITesting007_GET_BDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/GET/GET/APITesting008_GET_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/Task12DEC/GET_REQ_BDDSTYLE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/Task12DEC/GET_REQ_NONBDDSTYLE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex01_samplecheck01/APITest004_BuilderPatternDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex01_samplecheck01/APITesting003_NoDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex01_samplecheck01/ApiTesting002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex01_samplecheck01/ApiTestiong01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bca6f4a2-630a-4337-90a4-e0db61df07d7" name="Changes" comment="all new files">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/DELETE/APITesting013_NonBDDStyle_Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/PATCH/APITesting012_NonBDDStyle_Patch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting009_GET_NonBDDStyle_POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting010_GET_BDDStyle_POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/PUT/APITesting011_PUT_NONBddStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting012_TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting013_TestNG_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting014_TestNG_Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting015_TestNG_Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting016_TestNG_DependsOnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting017_TestNG_Enabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting018_TestNG_AlwaysRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-BDD-POST.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-parameter-chrome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-parameter-firefox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_grouping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_grouping_prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_grouping_reg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shashankjaincompany/Ex01_samplecheck/APITest004_BuilderPatternDesignPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shashankjaincompany/Ex01_samplecheck/APITesting003_NoDesignPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shashankjaincompany/Ex01_samplecheck/ApiTesting002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shashankjaincompany/Ex01_samplecheck/ApiTestiong01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +80,27 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.APITesting008_GET_NonBDDStyle.executor": "Run",
     "TestNG.APITesting008_GET_NonBDDStyle.test_GET_NonBDDStyle_negative.executor": "Run",
+    "TestNG.APITesting009_GET_NonBDDStyle_POST.executor": "Run",
+    "TestNG.APITesting010_GET_BDDStyle_POST.executor": "Run",
+    "TestNG.APITesting011_PUT_NONBddStyle.executor": "Run",
+    "TestNG.APITesting011_PUT_NONBddStyle.test_POST_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting011_PUT_NONBddStyle.test_Put_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting012_GET_NonBDDStyle_Patch.executor": "Run",
+    "TestNG.APITesting012_TestNG.executor": "Run",
+    "TestNG.APITesting013_NonBDDStyle_Delete.executor": "Run",
+    "TestNG.APITesting013_TestNG_Priority.executor": "Run",
+    "TestNG.APITesting014_TestNG_Groups.executor": "Run",
+    "TestNG.APITesting016_TestNG_DependsOnMethod.executor": "Run",
+    "TestNG.APITesting018_TestNG_AlwaysRun.executor": "Run",
+    "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-BDD-POST.xml.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-NonBDD-get.xml.executor": "Run",
+    "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-chrome.xml.executor": "Run",
+    "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-firefox.xml.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng.xml.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testngNONBDD.xml.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testngNonBDD_GET.xml.executor": "Run",
+    "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng_grouping.xml.executor": "Run",
+    "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng_grouping_prod.xml.executor": "Run",
     "TestNG.GET_REQ_BDDSTYLE.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -94,36 +114,24 @@
       <recent name="C:\Users\Admin\IdeaProjects\ATB9XAPITesting Programs\src\test\java\EX_02RESTASSURED\GET\GET" />
       <recent name="C:\Users\Admin\IdeaProjects\ATB9XAPITesting Programs\src\test\java\EX_02RESTASSURED\GET" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="EX_02RESTASSURED.DELETE" />
+      <recent name="EX_02RESTASSURED.POST" />
+      <recent name="EX_02RESTASSURED.PATCH" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng.xml">
-    <configuration name="APITesting008_GET_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.APITesting020_TestNG_invocationCount">
+    <configuration name="APITesting011_PUT_NONBddStyle.test_Put_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9XAPITestingPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EX_02RESTASSURED.GET.GET.*" />
+          <option name="PATTERN" value="EX_02RESTASSURED.PUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="EX_02RESTASSURED.GET.GET" />
-      <option name="MAIN_CLASS_NAME" value="EX_02RESTASSURED.GET.GET.APITesting008_GET_NonBDDStyle" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITesting008_GET_NonBDDStyle.test_GET_NonBDDStyle_negative" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EX_02RESTASSURED.GET.GET.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="EX_02RESTASSURED.GET.GET" />
-      <option name="MAIN_CLASS_NAME" value="EX_02RESTASSURED.GET.GET.APITesting008_GET_NonBDDStyle" />
-      <option name="METHOD_NAME" value="test_GET_NonBDDStyle_negative" />
+      <option name="PACKAGE_NAME" value="EX_02RESTASSURED.PUT" />
+      <option name="MAIN_CLASS_NAME" value="EX_02RESTASSURED.PUT.APITesting011_PUT_NONBddStyle" />
+      <option name="METHOD_NAME" value="test_Put_NonBDDStyle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,37 +139,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-NonBDD-get.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-NonBDD-get.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GET_REQ_BDDSTYLE" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITesting016_TestNG_DependsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9XAPITestingPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EX_02RESTASSURED.Task12DEC.*" />
+          <option name="PATTERN" value="ex03_testNGExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="EX_02RESTASSURED.Task12DEC" />
-      <option name="MAIN_CLASS_NAME" value="EX_02RESTASSURED.Task12DEC.GET_REQ_BDDSTYLE" />
+      <option name="PACKAGE_NAME" value="ex03_testNGExamples" />
+      <option name="MAIN_CLASS_NAME" value="ex03_testNGExamples.APITesting016_TestNG_DependsOnMethod" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting018_TestNG_AlwaysRun" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex03_testNGExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex03_testNGExamples" />
+      <option name="MAIN_CLASS_NAME" value="ex03_testNGExamples.APITesting018_TestNG_AlwaysRun" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting020_TestNG_invocationCount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex03_testNGExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex03_testNGExamples" />
+      <option name="MAIN_CLASS_NAME" value="ex03_testNGExamples.APITesting020_TestNG_invocationCount" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-chrome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-parameter-chrome.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-firefox.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-parameter-firefox.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -170,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng.xml" />
-        <item itemvalue="TestNG.GET_REQ_BDDSTYLE" />
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-NonBDD-get.xml" />
-        <item itemvalue="TestNG.APITesting008_GET_NonBDDStyle" />
-        <item itemvalue="TestNG.APITesting008_GET_NonBDDStyle.test_GET_NonBDDStyle_negative" />
+        <item itemvalue="TestNG.APITesting020_TestNG_invocationCount" />
+        <item itemvalue="TestNG.APITesting018_TestNG_AlwaysRun" />
+        <item itemvalue="TestNG.APITesting016_TestNG_DependsOnMethod" />
+        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-firefox.xml" />
+        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-chrome.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +229,35 @@
       <option name="presentableId" value="Default" />
       <updated>1736339583745</updated>
     </task>
+    <task id="LOCAL-00001" summary="all new files">
+      <option name="closed" value="true" />
+      <created>1736398918183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736398918183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="all new files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting010_GET_BDDStyle_POST.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/DELETE/APITesting013_NonBDDStyle_Delete.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

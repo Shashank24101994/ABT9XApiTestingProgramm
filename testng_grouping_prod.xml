@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ATB9XAPITestingPrograms">
+        <groups>
+            <run>
+                <include name="P1"></include>
+                <include name="prod"></include>
+                <exclude name="P0"></exclude>
+
+            </run>
+        </groups>
+        <classes>
+           <class name="ex03_testNGExamples.APITesting014_TestNG_Groups"></class>
+
+
+        </classes>
+    </test>
+</suite>

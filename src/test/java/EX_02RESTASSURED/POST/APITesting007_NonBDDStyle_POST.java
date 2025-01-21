@@ -28,6 +28,7 @@ public class APITesting007_NonBDDStyle_POST {
     response=r.when().log().all().post();
     vr=response.then().log().all().statusCode(200);
 
+
     }
 }
 

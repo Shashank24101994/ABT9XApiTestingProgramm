@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca6f4a2-630a-4337-90a4-e0db61df07d7" name="Changes" comment="all new files">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/DELETE/APITesting013_NonBDDStyle_Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/PATCH/APITesting012_NonBDDStyle_Patch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting009_GET_NonBDDStyle_POST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting010_GET_BDDStyle_POST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/PUT/APITesting011_PUT_NONBddStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting012_TestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting013_TestNG_Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting014_TestNG_Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting015_TestNG_Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting016_TestNG_DependsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting017_TestNG_Enabled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting018_TestNG_AlwaysRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-BDD-POST.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-parameter-chrome.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-parameter-firefox.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_grouping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_grouping_prod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_grouping_reg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX04_Assertions/RestAssured_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX04_Assertions/RestAssured_TestNg_assertJ_ASSERTION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EX04_Assertions/TestNG_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Payload_STRINGMAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/RestAssured_Payload_POJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/RestAssured_Payload_StringMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting007_NonBDDStyle_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting007_NonBDDStyle_POST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +34,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Shashank24101994"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shashank24101994&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Shashank24101994/Shashank24101994.git",
-    "accountId": "d7595f3f-42f3-4ca5-91dc-e56b1a8587f7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shashank24101994/Shashank24101994.git&quot;,
+    &quot;accountId&quot;: &quot;d7595f3f-42f3-4ca5-91dc-e56b1a8587f7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2rLXyNVyLwtHCnm7m9WAAhRniGz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,6 +62,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.APITest004_BuilderPatternDesignPattern.executor": "Run",
     "Application.APITesting003_NoDesignPattern.executor": "Run",
     "Application.APITesting006_GET_BDDStyle.executor": "Run",
@@ -92,6 +86,7 @@
     "TestNG.APITesting014_TestNG_Groups.executor": "Run",
     "TestNG.APITesting016_TestNG_DependsOnMethod.executor": "Run",
     "TestNG.APITesting018_TestNG_AlwaysRun.executor": "Run",
+    "TestNG.APITesting020_TestNG_invocationCount.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-BDD-POST.xml.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-NonBDD-get.xml.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-chrome.xml.executor": "Run",
@@ -102,10 +97,21 @@
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng_grouping.xml.executor": "Run",
     "TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng_grouping_prod.xml.executor": "Run",
     "TestNG.GET_REQ_BDDSTYLE.executor": "Run",
+    "TestNG.Payload_STRINGMAP.executor": "Run",
+    "TestNG.RestAssured_Assertions.executor": "Run",
+    "TestNG.RestAssured_Payload_POJO.executor": "Run",
+    "TestNG.RestAssured_Payload_POJO.test_post.executor": "Run",
+    "TestNG.RestAssured_Payload_StringMap.executor": "Run",
+    "TestNG.RestAssured_Payload_StringMap.test_post.executor": "Run",
+    "TestNG.RestAssured_TestNg_assertJ_ASSERTION.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.splitter.proportion": "0.44367588"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -115,23 +121,82 @@
       <recent name="C:\Users\Admin\IdeaProjects\ATB9XAPITesting Programs\src\test\java\EX_02RESTASSURED\GET" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ex_05payLoadManagement" />
+      <recent name="EX04_Assertions" />
       <recent name="EX_02RESTASSURED.DELETE" />
       <recent name="EX_02RESTASSURED.POST" />
       <recent name="EX_02RESTASSURED.PATCH" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.APITesting020_TestNG_invocationCount">
-    <configuration name="APITesting011_PUT_NONBddStyle.test_Put_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
+  <component name="RunManager" selected="TestNG.RestAssured_Payload_POJO">
+    <configuration name="APITesting006_GET_BDDStyle" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EX_02RESTASSURED.GET.APITesting006_GET_BDDStyle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EX_02RESTASSURED.PUT.*" />
+          <option name="PATTERN" value="EX_02RESTASSURED.GET.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="EX_02RESTASSURED.PUT" />
-      <option name="MAIN_CLASS_NAME" value="EX_02RESTASSURED.PUT.APITesting011_PUT_NONBddStyle" />
-      <option name="METHOD_NAME" value="test_Put_NonBDDStyle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payload_STRINGMAP" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_05payLoadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex_05payLoadManagement" />
+      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.Payload_STRINGMAP" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssured_Payload_POJO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_05payLoadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex_05payLoadManagement" />
+      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.RestAssured_Payload_POJO" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssured_Payload_POJO.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_05payLoadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex_05payLoadManagement" />
+      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.RestAssured_Payload_POJO" />
+      <option name="METHOD_NAME" value="test_post" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,16 +204,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITesting016_TestNG_DependsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestAssured_Payload_StringMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9XAPITestingPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex03_testNGExamples.*" />
+          <option name="PATTERN" value="ex_05payLoadManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex03_testNGExamples" />
-      <option name="MAIN_CLASS_NAME" value="ex03_testNGExamples.APITesting016_TestNG_DependsOnMethod" />
+      <option name="PACKAGE_NAME" value="ex_05payLoadManagement" />
+      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.RestAssured_Payload_StringMap" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -156,54 +221,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITesting018_TestNG_AlwaysRun" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestAssured_Payload_StringMap.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9XAPITestingPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex03_testNGExamples.*" />
+          <option name="PATTERN" value="ex_05payLoadManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex03_testNGExamples" />
-      <option name="MAIN_CLASS_NAME" value="ex03_testNGExamples.APITesting018_TestNG_AlwaysRun" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITesting020_TestNG_invocationCount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex03_testNGExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex03_testNGExamples" />
-      <option name="MAIN_CLASS_NAME" value="ex03_testNGExamples.APITesting020_TestNG_invocationCount" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-chrome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-parameter-chrome.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-firefox.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-parameter-firefox.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="ex_05payLoadManagement" />
+      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.RestAssured_Payload_StringMap" />
+      <option name="METHOD_NAME" value="test_post" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -212,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.APITesting020_TestNG_invocationCount" />
-        <item itemvalue="TestNG.APITesting018_TestNG_AlwaysRun" />
-        <item itemvalue="TestNG.APITesting016_TestNG_DependsOnMethod" />
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-firefox.xml" />
-        <item itemvalue="TestNG.C:/Users/Admin/IdeaProjects/ATB9XAPITesting Programs/testng-parameter-chrome.xml" />
+        <item itemvalue="TestNG.RestAssured_Payload_POJO" />
+        <item itemvalue="TestNG.RestAssured_Payload_POJO.test_post" />
+        <item itemvalue="TestNG.RestAssured_Payload_StringMap.test_post" />
+        <item itemvalue="TestNG.RestAssured_Payload_StringMap" />
+        <item itemvalue="TestNG.Payload_STRINGMAP" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736398918183</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all new files">
+      <option name="closed" value="true" />
+      <created>1736490045843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736490045843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,14 +285,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting010_GET_BDDStyle_POST.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting008_BDDStyle_POST.java</url>
           <line>7</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/DELETE/APITesting013_NonBDDStyle_Delete.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/DELETE/APITesting011_NonBDDStyle_Delete.java</url>
           <line>10</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ex03_testNGExamples/APITesting013_TestNG_Priority.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/RestAssured_Payload_StringMap.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

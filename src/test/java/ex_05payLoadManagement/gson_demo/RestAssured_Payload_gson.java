@@ -1,20 +1,23 @@
-package ex_05payLoadManagement;
+package ex_05payLoadManagement.gson_demo;
 
 
+import com.google.gson.Gson;
 import ex_05payLoadManagement.gson.Booking;
 import ex_05payLoadManagement.gson.Bookingdates;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class RestAssured_Payload_POJO
+public class RestAssured_Payload_gson
 {
     RequestSpecification r;
     Response response;
@@ -64,44 +67,54 @@ public class RestAssured_Payload_POJO
     booking.setAdditionalneeds("Breakfast");
     System.out.println(booking);
 
+    Gson gson = new Gson();
+    String jsonstringBooking = gson.toJson(booking);
+    System.out.println(jsonstringBooking);
+
+
+
+
 
         r= RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");
         r.basePath("/booking");
         r.contentType(ContentType.JSON);
-        r.body( booking).log().all();
+        r.body( jsonstringBooking).log().all();
         response=r.when().log().all().post();
+     String jsonResponseString =response.asString();
 
         // Get Validatable response to perform validation
         vr= response.then().log().all();
         vr.statusCode(200);
 
-        // Rest Assured -> import org.hamcrest.Matchers;
-        // Matchers.equalto()
+    // Case1 - extract() - Direct Extraction
+//    String firstname1 = response.then().extract().path("booking.firstname");
+//    System.out.println(firstname1);
+//
+//    // Case 2 - jsonPath.getString("")  JSON Path Extraction
+//
+//    JsonPath jsonPath = new JsonPath(response.asString());
+//    String bookingId = jsonPath.getString("bookingid");
+//    String firstname = jsonPath.getString("booking.firstname");
+//    System.out.println(bookingId);
+//    System.out.println(firstname);
 
-        vr.body("bookingid", Matchers.notNullValue());
-        vr.body("booking.firstname",Matchers.equalTo("shashank"));
-        vr.body("booking.lastname",Matchers.equalTo("jain"));
-        vr.body("booking.depositpaid",Matchers.equalTo(false));
-        vr.body("booking.totalprice",Matchers.equalTo(123));
 
-      //testng assertion
-        bookingId = response.then().extract().path("bookingid");
-        String Firstname =response.then().extract().path("booking.firstname");
-       String Lastname =response.then().extract().path("booking.lastname");
-
-       /* Assert.assertNotNull(bookingId);
-        Assert.assertEquals(Firstname,"shashank");
-        Assert.assertEquals(Lastname,"jain")*/
-
-     // assert j
-
-    assertThat(bookingId).isNotNull().isNotZero().isPositive();
-    assertThat(Firstname).isEqualTo("shashank").isNotNull().isNotEmpty();
+    BookingResponse bookingResponse = gson.fromJson(jsonResponseString, BookingResponse.class);
+    System.out.println(bookingResponse.getBookingid());
+    System.out.println(bookingResponse.getBooking().getFirstname());
+    System.out.println(bookingResponse.getBooking().getLastname());
 
 
 
+    assertThat(bookingResponse.getBookingid());
+    assertThat(bookingResponse.getBooking().getFirstname()).isEqualTo("shashank");
 
 
-   }
+
+
+
+
+
+}
 }

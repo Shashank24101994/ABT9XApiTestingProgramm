@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca6f4a2-630a-4337-90a4-e0db61df07d7" name="Changes" comment="all new files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX04_Assertions/RestAssured_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX04_Assertions/RestAssured_TestNg_assertJ_ASSERTION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EX04_Assertions/TestNG_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Bookingdates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Payload_STRINGMAP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/RestAssured_Payload_POJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/RestAssured_Payload_StringMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/gson_demo/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/gson_demo/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/gson_demo/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/gson_demo/RestAssured_Payload_gson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting007_NonBDDStyle_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EX_02RESTASSURED/POST/APITesting007_NonBDDStyle_POST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/gson/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/Bookingdates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/gson/Bookingdates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/RestAssured_Payload_POJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ex_05payLoadManagement/RestAssured_Payload_POJO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +42,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -103,6 +98,8 @@
     "TestNG.RestAssured_Payload_POJO.test_post.executor": "Run",
     "TestNG.RestAssured_Payload_StringMap.executor": "Run",
     "TestNG.RestAssured_Payload_StringMap.test_post.executor": "Run",
+    "TestNG.RestAssured_Payload_gson.executor": "Run",
+    "TestNG.RestAssured_Payload_gson.test_post.executor": "Run",
     "TestNG.RestAssured_TestNg_assertJ_ASSERTION.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -121,14 +118,14 @@
       <recent name="C:\Users\Admin\IdeaProjects\ATB9XAPITesting Programs\src\test\java\EX_02RESTASSURED\GET" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ex_05payLoadManagement.gson_demo" />
       <recent name="ex_05payLoadManagement" />
       <recent name="EX04_Assertions" />
       <recent name="EX_02RESTASSURED.DELETE" />
       <recent name="EX_02RESTASSURED.POST" />
-      <recent name="EX_02RESTASSURED.PATCH" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RestAssured_Payload_POJO">
+  <component name="RunManager" selected="TestNG.RestAssured_Payload_gson">
     <configuration name="APITesting006_GET_BDDStyle" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EX_02RESTASSURED.GET.APITesting006_GET_BDDStyle" />
       <extension name="coverage">
@@ -152,28 +149,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Payload_STRINGMAP" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_05payLoadManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex_05payLoadManagement" />
-      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.Payload_STRINGMAP" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RestAssured_Payload_POJO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9XAPITestingPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_05payLoadManagement.*" />
+          <option name="PATTERN" value="ex_05payLoadManagement.gson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,7 +170,7 @@
       <module name="ATB9XAPITestingPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_05payLoadManagement.*" />
+          <option name="PATTERN" value="ex_05payLoadManagement.gson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,28 +184,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssured_Payload_StringMap" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9XAPITestingPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_05payLoadManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex_05payLoadManagement" />
-      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.RestAssured_Payload_StringMap" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RestAssured_Payload_StringMap.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9XAPITestingPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_05payLoadManagement.*" />
+          <option name="PATTERN" value="ex_05payLoadManagement.gson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,13 +202,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestAssured_Payload_gson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_05payLoadManagement.gson_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex_05payLoadManagement.gson_demo" />
+      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.gson_demo.RestAssured_Payload_gson" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssured_Payload_gson.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9XAPITestingPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_05payLoadManagement.gson_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex_05payLoadManagement.gson_demo" />
+      <option name="MAIN_CLASS_NAME" value="ex_05payLoadManagement.gson_demo.RestAssured_Payload_gson" />
+      <option name="METHOD_NAME" value="test_post" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RestAssured_Payload_gson" />
+        <item itemvalue="TestNG.RestAssured_Payload_gson.test_post" />
         <item itemvalue="TestNG.RestAssured_Payload_POJO" />
         <item itemvalue="TestNG.RestAssured_Payload_POJO.test_post" />
         <item itemvalue="TestNG.RestAssured_Payload_StringMap.test_post" />
-        <item itemvalue="TestNG.RestAssured_Payload_StringMap" />
-        <item itemvalue="TestNG.Payload_STRINGMAP" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736490045843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all new files">
+      <option name="closed" value="true" />
+      <created>1737443187216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737443187216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

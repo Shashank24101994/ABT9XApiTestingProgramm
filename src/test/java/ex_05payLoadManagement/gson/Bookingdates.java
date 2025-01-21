@@ -1,4 +1,4 @@
-package ex_05payLoadManagement;
+package ex_05payLoadManagement.gson;
 
 public class Bookingdates
 {
